@@ -19,16 +19,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                             duration: 3000,
                             style: {
                                 fontFamily: 'Inter, sans-serif',
-                                borderRadius: '12px',
-                                background: '#1f2937',
-                                color: '#f9fafb',
+                                borderRadius: '14px',
+                                background: '#fff',
+                                color: '#262626',
+                                border: '1px solid #e5e5e5',
+                                boxShadow: '0 4px 24px rgba(0,0,0,0.06)',
                             },
-                            success: {
-                                iconTheme: { primary: '#059669', secondary: '#f9fafb' },
-                            },
-                            error: {
-                                iconTheme: { primary: '#ef4444', secondary: '#f9fafb' },
-                            },
+                            success: { iconTheme: { primary: '#14b8a6', secondary: '#fff' } },
+                            error: { iconTheme: { primary: '#f43f5e', secondary: '#fff' } },
                         }}
                     />
                 </CartProvider>
